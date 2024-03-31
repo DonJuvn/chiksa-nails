@@ -201,6 +201,7 @@ a {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
+   margin-bottom: 7.5vh;
 }
 .call {
    position: relative;
@@ -232,6 +233,39 @@ a {
    height: 85%;
 }
 
+/* features */
 #Features {
+   padding-top: 7.5vh;
+}
+.divider {
+   width: 1px;
+   height: 50px; /* Set the height to fill the full height of the container */
+   background-color: #000; /* Adjust color as needed */
+}
+.features {
+  margin-top: 6%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: fit-content;
+   align-items: center;
+}
+.feature {
+  display: flex;
+   align-items: center;
+   height: 100%;
+   justify-content: space-between;
+   width: 20%;
+}
+.feature img{
+  margin-right: 10px;
+}
+.feature p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+#BestWorks {
    height: 270vh;
 }

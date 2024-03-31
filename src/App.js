@@ -17,11 +17,11 @@ function App() {
       <Header />
       <About />
       <CallToAction />
-      <Appointment />
-      <BestWorks />
       <Features />
+      <Masters /> 
+      <BestWorks />
       <Certificates />
-      <Masters />
+      <Appointment />
       <Footer />
     </div>
   );
