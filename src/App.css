@@ -1,5 +1,4 @@
-html {
-   scroll-behavior: smooth;
+html {   scroll-behavior: smooth;
 }
 body {
    overflow-x: hidden;
@@ -7,6 +6,16 @@ body {
 }
 a {
    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+   margin: 0;
 }
 .container {
    width: 90%;
@@ -50,16 +59,73 @@ a {
    padding: 15px 30px;
    color: #fff;
    font-size: 16px;
-   line-height: 21.19px;
+   line-height: 18.19px;
    font-weight: 500;
    border-radius: 10px;
    width: 7vw;
    text-align: center;
-   background-image: linear-gradient(to right, #9c37ce, #ce3fa6, #c855c2),
+   background-image: linear-gradient(to right, #9c3596, #ce3fa6, #c855c2),
       linear-gradient(to right, #9f439b, #9e317f, #7d2ba6);
    background-size: 200% auto;
-   transition: background-position 0.3s;
+   transition: 0.3s;
 }
 .nav-appointment:hover {
    background-position: right;
+}
+
+/* about */
+.about {
+   background-color: #efe5e3;
+   height: 82vh;
+   position: relative;
+   border-radius: 60px;
+   margin-top: 30px;
+}
+.info {
+   display: flex;
+   flex-direction: column;
+   max-width: 55%;
+   margin-left: 7%;
+   padding-top: 10%;
+}
+.info h1 {
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 45.62px;
+   color: #202020;
+}
+.info h1 span {
+   color: #9c3596;
+}
+.info p {
+   margin-top: 3.5%;
+   font-size: 16px;
+   line-height: 18px;
+   font-weight: 500;
+}
+.actions {
+   margin-top: 7%;
+}
+.actions .nav-appointment {
+   margin-right: 3%;
+}
+.phone {
+   background-color: transparent;
+   border: 1px solid #9c3596;
+   color: #9c3596;
+   padding: 15px 30px;
+   font-size: 16px;
+   line-height: 18.19px;
+   font-weight: 500;
+   border-radius: 10px;
+   width: 7vw;
+   text-align: center;
+   transition: 0.3s;
+   font-family: "Gilroy", sans-serif;
+}
+.about img {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 35vw;
 }

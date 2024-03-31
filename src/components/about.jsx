@@ -1,13 +1,32 @@
-import React from "react";
+import React from "react";import AppointmentButton from "./appointment-btn";
+import PhoneButton from "./phone-number";
 
 const About = () => {
    return (
-      <div id='about'>
+      <div id="about">
          <div className="container">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia unde omnis, ab officiis magnam esse nulla adipisci quam magni voluptates aut voluptate quos minima deleniti maiores beatae vel? Reiciendis, quod?</p>
+            <div className="about">
+               <div className="info">
+                  <h1>
+                     Маникюр, который подчеркнет <span>вашу уникальность!</span>
+                  </h1>
+                  <p>
+                     Добро пожаловать в Chiksa — где каждый маникюр превращается
+                     в шедевр, а уход за собой становится настоящим искусством.
+                     Мы верим, что красивые руки начинаются с идеального
+                     маникюра, и наша миссия — сделать каждый ваш визит
+                     незабываемым.
+                  </p>
+                  <div className="actions">
+                     <AppointmentButton />
+                     <PhoneButton />
+                  </div>
+               </div>
+               <img src="../../img/main-woman.svg" alt="" />
+            </div>
          </div>
       </div>
-   )
-}
+   );
+};
 
 export default About;
