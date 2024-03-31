@@ -271,46 +271,109 @@ a {
 }
 
 /* masters */
-#Masters{
-  padding-top: 7.5vh;
+#Masters {
+   padding-top: 7.5vh;
 }
-.masters{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.masters {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 7.5vh;
 }
-.master{
-  width: 21.5vw;
+.master {
+   width: 21.5vw;
 }
-.img-bg{
-  width: 100%;
-  aspect-ratio: 1/1;
-  overflow: hidden;
-  background-color: #efe5e3;
-  border-radius: 50px;
-  position: relative;
+.img-bg {
+   width: 100%;
+   aspect-ratio: 1/1;
+   overflow: hidden;
+   background-color: #efe5e3;
+   border-radius: 50px;
+   position: relative;
 }
-.img-bg img{
-  position: absolute;
-  bottom: 0;
-  width: 68%;
-  margin: 0 16%;
-  transition: 0.3s;
+.img-bg img {
+   position: absolute;
+   bottom: 0;
+   width: 68%;
+   margin: 0 16%;
+   transition: 0.3s;
 }
-.img-bg img:hover{
-  transform: scale(1.1);
-  cursor: pointer;
+.img-bg img:hover {
+   transform: scale(1.1);
+   cursor: pointer;
 }
-.name{
-  margin-top: 5%;
-  font-size: 22px;
-  font-weight: 500;
-  color: #202020;
+.name {
+   margin-top: 5%;
+   font-size: 22px;
+   font-weight: 500;
+   color: #202020;
 }
-.experience{
-  font-weight: 500;
-  font-size: 14px;
-  color: #202020;
+.experience {
+   font-weight: 500;
+   font-size: 14px;
+   color: #202020;
+}
+
+/* bestworks */
+#BestWorks {
+   padding-top: 7.5vh;
+}
+.works {
+   margin-top: 5%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.work {
+   position: relative;
+   width: 49%;
+   height: 50vh;
+   background-color: #efe5e3;
+   border-radius: 50px;
+   overflow: hidden;
+}
+.logotype {
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 30px 0 0 30px;
+}
+.work-img {
+   display: flex;
+   position: relative;
+   height: 100%;
+   width: 40%;
+   margin: auto;
+}
+.work-img img {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   transition: 0.2s;
+}
+.work-img img:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.work-info {
+   position: absolute;
+   margin: 30px 30px 0 0;
+   right: 0;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: end;
+  }
+.information {
+   color: #202020;
+   font-size: 16px;
+   padding: 7px;
+   border: 1px solid #202020;
+   margin-bottom: 15px;
+   border-radius: 10px;
+   width: fit-content;
+   text-align: center;
 }
 #BestWorks {
    height: 270vh;
