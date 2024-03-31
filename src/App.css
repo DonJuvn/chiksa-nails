@@ -1,23 +1,55 @@
 html {   scroll-behavior: smooth;
 }
 body {
-   background-color: wheat;
-   color: blueviolet;
+   overflow-x: hidden;
+   font-family: "Gilroy", sans-serif;
+}
+a {
+   text-decoration: none;
 }
 .container {
-   width: 80%;
+   width: 90%;
    margin: auto;
 }
 
-#about {
-   min-height: 75vh;
-   margin-bottom: 15px;
+/* header */
+.header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin-top: 2.7%;
 }
-#appointment {
-   min-height: 75vh;
-   margin-bottom: 15px;
+.logo {
+   width: 7vw;
+   text-align: left;
 }
-#Features {
-   min-height: 75vh;
-   margin-bottom: 15px;
+.logo img {
+   width: 3.65vw;
+   object-fit: cover;
+   height: auto;
+}
+.navigation {
+   display: flex;
+   justify-content: space-between;
+   width: 43%;
+}
+.navigation a {
+   color: #202020;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21.19px;
+}
+
+.nav-appointment {
+   background-color: #9c3596;
+   padding: 15px 30px;
+   color: #fff;
+   font-size: 16px;
+   line-height: 21.19px;
+   font-weight: 500;
+   border-radius: 10px;
+   width: 7vw;
+   text-align: center;
 }
