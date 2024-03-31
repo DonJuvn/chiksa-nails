@@ -76,6 +76,7 @@ a {
 /* about */
 .about {
    background-color: #efe5e3;
+   /* background-image: url("../public/img/union.svg"); */
    height: 82vh;
    position: relative;
    border-radius: 60px;
@@ -89,7 +90,7 @@ a {
    padding-top: 10%;
 }
 .info h1 {
-   font-size: 40px;
+   font-size: 44px;
    font-weight: 500;
    line-height: 45.62px;
    color: #202020;
@@ -123,9 +124,49 @@ a {
    transition: 0.3s;
    font-family: "Gilroy", sans-serif;
 }
-.about img {
+.phone i {
+   margin-right: 8px;
+}
+.main-woman {
    position: absolute;
    bottom: 0;
    right: 0;
    width: 35vw;
+}
+.smm {
+   position: absolute;
+   height: 15.6%;
+   padding: 5px 30px;
+   bottom: 0;
+   min-width: fit-content;
+   width: 40%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   background-color: #fff;
+   align-items: center;
+   border-radius: 0 25px 0 0;
+   overflow: hidden;
+}
+.smm a {
+   border: 1px solid #202020;
+   padding: 1% 3%;
+   border-radius: 5px;
+   margin-right: 4%;
+   align-items: center;
+   color: #202020;
+   transition: 0.2s;
+   display: flex;
+   flex-direction: row;
+}
+.smm a:hover {
+   transform: scale(1.1);
+}
+.smm img {
+   width: 12px;
+   margin-left: 3px;
+}
+
+#Features {
+   height: 270vh;
 }
