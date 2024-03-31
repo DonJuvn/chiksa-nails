@@ -81,6 +81,8 @@ a {
    position: relative;
    border-radius: 60px;
    margin-top: 30px;
+   margin-bottom: 7.5vh;
+   overflow: hidden;
 }
 .info {
    display: flex;
@@ -124,6 +126,9 @@ a {
    transition: 0.3s;
    font-family: "Gilroy", sans-serif;
 }
+.phone:hover {
+   transform: scale(1.1);
+}
 .phone i {
    margin-right: 8px;
 }
@@ -132,6 +137,10 @@ a {
    bottom: 0;
    right: 0;
    width: 35vw;
+   transition: 0.2s;
+}
+.main-woman:hover {
+   transform: scale(1.05);
 }
 .smm {
    position: absolute;
@@ -165,6 +174,62 @@ a {
 .smm img {
    width: 12px;
    margin-left: 3px;
+}
+
+/* call-to-action */
+#CallToAction {
+   padding-top: 7.5vh;
+}
+.title {
+   font-weight: 500;
+   font-size: 42px;
+   line-height: 44px;
+}
+#call-to-action {
+   width: 51.5vw;
+}
+.title span {
+   color: #9c3596;
+}
+.desc {
+   width: 50vw;
+   margin: 2% 0;
+   font-size: 16px;
+   font-weight: 500;
+}
+.calls {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.call {
+   position: relative;
+   width: 49%;
+   height: 55vh;
+   background-color: #efe5e3;
+   border-radius: 25px;
+   overflow: hidden;
+}
+.call h1 {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 38px;
+   color: #9c3596;
+   width: 55%;
+   margin-top: 13%;
+}
+.call p {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   margin: 2.4% 0 5.5%;
+   width: 55%;
+}
+.call img {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   height: 85%;
 }
 
 #Features {
