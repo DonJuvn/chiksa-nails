@@ -1,4 +1,5 @@
-html {   scroll-behavior: smooth;
+html {
+   scroll-behavior: smooth;
 }
 body {
    overflow-x: hidden;
@@ -24,11 +25,12 @@ a {
 .logo {
    width: 7vw;
    text-align: left;
+   padding-left: 1vw;
 }
 .logo img {
    width: 3.65vw;
    object-fit: cover;
-   height: auto;
+   height: 100%;
 }
 .navigation {
    display: flex;
@@ -41,9 +43,10 @@ a {
    font-size: 16px;
    line-height: 21.19px;
 }
-
+.navigation a:hover {
+   color: #9c3596;
+}
 .nav-appointment {
-   background-color: #9c3596;
    padding: 15px 30px;
    color: #fff;
    font-size: 16px;
@@ -52,4 +55,11 @@ a {
    border-radius: 10px;
    width: 7vw;
    text-align: center;
+   background-image: linear-gradient(to right, #9c37ce, #ce3fa6, #c855c2),
+      linear-gradient(to right, #9f439b, #9e317f, #7d2ba6);
+   background-size: 200% auto;
+   transition: background-position 0.3s;
+}
+.nav-appointment:hover {
+   background-position: right;
 }

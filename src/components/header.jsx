@@ -1,5 +1,4 @@
-import React from "react";
-const Header = () => {
+import React from "react";const Header = () => {
    const scrollToSection = (id) => {
       const section = document.getElementById(id);
       section.scrollIntoView({ behavior: "smooth" });
@@ -22,6 +21,7 @@ const Header = () => {
                <a className="nav-appointment" href="#appointment">
                   Записаться
                </a>
+               {/* <button className="nav-appointment">Book now</button> */}
             </div>
          </div>
       </div>
