@@ -17,6 +17,7 @@ h6,
 p,
 a {
    margin: 0;
+   font-family: "Gilroy", sans-serif;
 }
 .container {
    width: 90%;
@@ -433,7 +434,7 @@ a {
    position: absolute;
    bottom: 0;
 }
-.certificate .add {
+.add {
    background-color: #fff;
    padding: 20px 5px 0 20px;
    border-radius: 50px 0 0 0;
@@ -459,22 +460,120 @@ a {
    color: #fff;
 }
 
-
+/* appointment */
+.appointment-section {
+   background-color: #efe5e3;
+   border-radius: 50px;
+   margin: 20vh 0 15vh 0;
+   position: relative;
+   overflow: hidden;
+}
+.appointment-section .container {
+   padding: 4% 0;
+   margin-left: 5%;
+   width: 59%;
+}
+.appointment-section h3 {
+   font-size: 24px;
+   font-family: "Gilroy", sans-serif;
+   font-weight: 500;
+   color: #202020;
+   margin-bottom: 3%;
+}
+.appointment-section h3 span {
+   color: #9c3596;
+}
+.pick-masters {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 3%;
+}
+.picker {
+   background-color: transparent;
+   padding: 8px 16px;
+   color: #9c3596;
+   border: 0.3px solid #9c3596;
+   border-radius: 10px;
+   font-size: 16px;
+   font-weight: 500;
+   transition: 0.2s;
+}
+.picker:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+.form {
+   width: 100%;
+}
+.form p {
+   font-size: 16px;
+   font-weight: 500;
+   color: #202020;
+   line-height: 18px;
+   margin-bottom: 10px;
+}
+.form input {
+   margin-bottom: 20px;
+   background-color: transparent;
+   border: none;
+   font-size: 14px;
+   line-height: 16px;
+   border-bottom: 1px solid #20202030;
+   padding: 5px 0;
+   width: 100%;
+}
+input:focus {
+   outline: none;
+}
+.appointment-section img {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 35%;
+}
+.appointment-section .appointment-btn {
+   background-color: #9c3596;
+   color: #fff;
+   padding: 15px 45px;
+   border-radius: 15px;
+   font-family: "Gilroy", sans-serif;
+   border: none;
+   font-size: 22px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+.appointment-btn:hover{
+   transform: scale(1.1);
+}
+.btn-bg {
+   background-color: #fff;
+   padding: 20px 5px 0 20px;
+   border-radius: 50px 0 0 0;
+   width: 18%;
+   height: 14%;
+   text-align: center;
+   float: right;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
 
 /* footer */
-#Contacts{
+#Contacts {
    margin-top: 7.5vh;
 }
-#Contacts .container{
+#Contacts .container {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
 }
-#whatsapp{
+#whatsapp {
    margin-right: 20px;
 }
-
 
 #Contacts {
    height: 270vh;
