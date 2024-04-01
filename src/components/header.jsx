@@ -1,4 +1,6 @@
-import React from "react";import AppointmentButton from "./appointment-btn";
+import React from "react";import { Link } from "react-router-dom";
+import AppointmentButton from "./appointment-btn";
+
 const Header = () => {
    const scrollToSection = (id) => {
       const section = document.getElementById(id);
@@ -10,7 +12,9 @@ const Header = () => {
          <div className="container">
             <div className="header">
                <div className="logo">
-                  <img src="../../img/logo.svg" alt="" />
+                  <Link to="/">
+                     <img src="../../img/logo.svg" alt="" />
+                  </Link>
                </div>
                <div className="navigation">
                   <a href="#about">О салоне</a>
@@ -19,10 +23,7 @@ const Header = () => {
                   <a href="#Certificates">Сертификаты</a>
                   <a href="#Contacts">Контакты</a>
                </div>
-               {/* <a className="nav-appointment" href="#appointment">
-                  Записаться
-               </a> */}
-               <AppointmentButton/>
+               <AppointmentButton />
             </div>
          </div>
       </div>
