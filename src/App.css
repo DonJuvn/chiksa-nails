@@ -458,6 +458,24 @@ a {
    font-size: 36px;
    color: #fff;
 }
+
+
+
+/* footer */
+#Contacts{
+   margin-top: 7.5vh;
+}
+#Contacts .container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+#whatsapp{
+   margin-right: 20px;
+}
+
+
 #Contacts {
    height: 270vh;
 }
