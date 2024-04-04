@@ -1,4 +1,5 @@
-html {   scroll-behavior: smooth;
+html {
+   scroll-behavior: smooth;
 }
 body {
    overflow-x: hidden;
@@ -72,6 +73,61 @@ a {
 }
 .nav-appointment:hover {
    background-position: right;
+}
+#burger {
+   display: none;
+}
+@media (max-width: 768px) {
+   .navigation {
+      display: none; /* Hide navigation links by default on smaller screens */
+   }
+   .nav-appointment {
+      display: none;
+   }
+   .navigation.active {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background-color: transparent;
+      padding: 20px 0;
+      width: 85vw;
+      bottom: 0;
+      margin: 0;
+      text-align: right;
+   }
+   .navigation.active a {
+      margin: 10px 0;
+      color: #202020;
+      width: 90vw;
+   }
+   .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 20px 0 0 15px;
+   }
+   .logo img {
+      width: 40px;
+   }
+   #burger {
+      display: flex; /* Show burger button */
+      font-size: 20px;
+      color: #9c3596;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 40px 5vw 0 0;
+   }
+   .header {
+      height: fit-content;
+      position: relative;
+      margin-top: 0;
+      height: 100px;
+   }
+   .header.active {
+      height: 320px;
+   }
 }
 
 /* about */
@@ -460,10 +516,13 @@ a {
 }
 
 /* appointment */
+#appointment {
+   padding-top: 7.5vh;
+}
 .appointment-section {
    background-color: #efe5e3;
    border-radius: 50px;
-   margin: 20vh 0 15vh 0;
+   margin: 5vh 0 15vh 0;
    position: relative;
    overflow: hidden;
 }

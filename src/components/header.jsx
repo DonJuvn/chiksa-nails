@@ -1,24 +1,27 @@
-import React from "react";import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import AppointmentButton from "./appointment-btn";
 import Navigation from "./navigation";
 
 const Header = () => {
-   const scrollToSection = (id) => {
-      const section = document.getElementById(id);
-      section.scrollIntoView({ behavior: "smooth" });
+   const [isMenuOpen, setMenuOpen] = useState(false);
+
+   const toggleMenu = () => {
+      setMenuOpen(!isMenuOpen);
    };
 
    return (
       <div id="Header">
          <div className="container">
-            <div className="header">
+            <div className={`header ${isMenuOpen ? "active" : ""}`}>
                <div className="logo">
                   <Link to="/">
                      <img src="../../img/logo.svg" alt="" />
                   </Link>
                </div>
-               <Navigation />
-               <AppointmentButton />
+               <i id='burger' onClick={toggleMenu} class="fa-solid fa-bars"></i>
+               <Navigation isOpen={isMenuOpen} />
+               <AppointmentButton isVisible={!isMenuOpen} />
             </div>
          </div>
       </div>

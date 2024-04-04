@@ -1,7 +1,8 @@
 import React from "react";
-const Navigation = () => {
+
+const Navigation = ({ isOpen }) => {
    return (
-      <div className="navigation">
+      <div className={`navigation ${isOpen ? "active" : ""}`}>
          <a href="#about">О салоне</a>
          <a href="#Masters">Мастера</a>
          <a href="#BestWorks">Работы</a>
