@@ -21,7 +21,7 @@ const Header = () => {
                </div>
                <i id='burger' onClick={toggleMenu} class="fa-solid fa-bars"></i>
                <Navigation isOpen={isMenuOpen} />
-               <AppointmentButton isVisible={!isMenuOpen} />
+               <AppointmentButton isVisible={isMenuOpen} />
             </div>
          </div>
       </div>

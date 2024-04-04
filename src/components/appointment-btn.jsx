@@ -2,7 +2,7 @@ import React from "react";
 
 const AppointmentButton = ({ isVisible }) => {
    return isVisible ? (
-      <a className="nav-appointment" href="#appointment">
+      <a className={`nav-appointment ${isVisible ? "active" : ""}`} href="#appointment">
          Записаться
       </a>
    ) : null;

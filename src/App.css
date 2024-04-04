@@ -1,5 +1,4 @@
-html {
-   scroll-behavior: smooth;
+html {   scroll-behavior: smooth;
 }
 body {
    overflow-x: hidden;
@@ -93,8 +92,8 @@ a {
       padding: 20px 0;
       width: 85vw;
       bottom: 0;
-      margin: 0;
-      text-align: right;
+      margin-bottom: 30px;
+      text-align: center;
    }
    .navigation.active a {
       margin: 10px 0;
@@ -126,14 +125,25 @@ a {
       height: 100px;
    }
    .header.active {
-      height: 320px;
+      height: 350px;
+   }
+   .nav-appointment.active {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 10px 15px;
+      margin: 0 5vw 10px 0;
+      font-size: 14px;
+      line-height: 13.19px;
+      border-radius: 8px;
+      width: fit-content;
    }
 }
 
 /* about */
 .about {
    background-color: #efe5e3;
-   /* background-image: url("../public/img/union.svg"); */
    height: 82vh;
    position: relative;
    border-radius: 60px;
@@ -231,6 +241,85 @@ a {
 .smm img {
    width: 12px;
    margin-left: 3px;
+}
+
+@media (max-width: 768px) {
+   .about {
+      height: 70vh;
+      border-radius: 20px;
+      margin-top: 0px;
+      margin-bottom: 2vh;
+   }
+   .info {
+      max-width: 90%;
+      margin-left: 5%;
+      padding-top: 10%;
+   }
+   .info h1 {
+      font-size: 22px;
+      line-height: 24px;
+      text-align: center;
+   }
+   .info p {
+      margin-top: 3.5%;
+      font-size: 14px;
+      line-height: 15.78px;
+   }
+   .actions {
+      margin-top: 7%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   .actions .nav-appointment {
+      margin-right: 1%;
+      position: relative;
+      width: 45%;
+      height: 15px;
+      text-align: center;
+      padding: 10px 20px;
+      height: 100%;
+      display: none;
+   }
+   .phone {
+      padding: 10px 20px;
+      font-size: 14px;
+      line-height: 16.19px;
+      width: 45%;
+      align-items: center;
+   }
+   .phone:hover {
+      transform: scale(1);
+   }
+   .main-woman {
+      position: static;
+      width: 100%;
+      bottom: 0;
+   }
+   .main-woman:hover {
+      transform: scale(1);
+   }
+   .smm {
+      height: fit-content;
+      padding: 5px 10px;
+      width: 95%;
+      flex-wrap: wrap;
+   }
+   .smm a {
+      border: 0.2px solid #20202070;
+      padding: 1.75% 3%;
+      border-radius: 10px;
+      margin: 0 5px;
+      font-size: 10px;
+   }
+   .smm a:hover {
+      transform: scale(1.1);
+   }
+   .smm img {
+      width: 12px;
+      margin-left: 3px;
+   }
 }
 
 /* call-to-action */

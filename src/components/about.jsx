@@ -19,7 +19,7 @@ const About = () => {
                      незабываемым.
                   </p>
                   <div className="actions">
-                     <AppointmentButton />
+                     <AppointmentButton isVisible={true}/>
                      <PhoneButton />
                   </div>
                </div>
