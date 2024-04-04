@@ -1,5 +1,4 @@
-html {
-   scroll-behavior: smooth;
+html {   scroll-behavior: smooth;
 }
 body {
    overflow-x: hidden;
@@ -501,6 +500,10 @@ a {
    font-weight: 500;
    transition: 0.2s;
 }
+.picker.active {
+   background-color: #9c3596;
+   color: #fff;
+}
 .picker:hover {
    cursor: pointer;
    transform: scale(1.1);
@@ -514,6 +517,29 @@ a {
    color: #202020;
    line-height: 18px;
    margin-bottom: 10px;
+}
+.zapis {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+}
+.work-type {
+   width: 70%;
+}
+.date {
+   padding-left: 15px;
+   width: 30%;
+}
+.zapis select {
+   max-width: 40%;
+   background-color: transparent;
+   color: #9c3596;
+   font-size: 16px;
+   padding: 7px;
+   border-radius: 5px;
+   border: 0.3px solid #9c3596;
+   font-family: "Gilroy", sans-serif;
+   margin: 0 4px;
 }
 .form input {
    margin-bottom: 20px;
@@ -545,7 +571,7 @@ input:focus {
    cursor: pointer;
    transition: 0.3s;
 }
-.appointment-btn:hover{
+.appointment-btn:hover {
    transform: scale(1.1);
 }
 .btn-bg {
