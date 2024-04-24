@@ -1,5 +1,4 @@
-import React from "react";
-import Navigation from "./navigation";
+import React from "react";import Navigation from "./navigation";
 import PhoneButton from "./phone-number";
 import WhatsAppButton from "./whatsapp";
 const Footer = () => {
@@ -11,6 +10,7 @@ const Footer = () => {
                <WhatsAppButton />
                <PhoneButton />
             </div>
+               <p>Адрес: Тараз, Пушкина 154</p>
          </div>
       </div>
    );

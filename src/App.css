@@ -540,7 +540,7 @@ a {
    color: #202020;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
    #Masters {
       padding-top: 0vh;
    }
@@ -625,7 +625,7 @@ a {
    text-align: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
    #BestWorks {
       padding-top: 0vh;
    }
@@ -728,7 +728,7 @@ a {
    color: #fff;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
    #Certificates {
       padding-top: 0vh;
    }
@@ -907,13 +907,13 @@ input:focus {
    bottom: 0;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
    #appointment {
       padding-top: 0vh;
    }
    .appointment-section {
       border-radius: 30px;
-      margin: 5vh 0 15vh 0;
+      margin: 5vh 0 10vh 0;
       position: relative;
       overflow: hidden;
    }
@@ -935,7 +935,7 @@ input:focus {
    .picker {
       padding: 6px 8px;
       font-size: 14px;
-      font-family: 'Gilroy', sans-serif;
+      font-family: "Gilroy", sans-serif;
       margin: 0 5px 5px 0;
    }
    .picker:hover {
@@ -949,7 +949,7 @@ input:focus {
       line-height: 15px;
       margin-bottom: 10px;
    }
-   .number{
+   .number {
       width: 70%;
    }
    .zapis {
@@ -1017,5 +1017,27 @@ input:focus {
 }
 
 #Contacts {
-   height: 270vh;
+   height: 80px;
+}
+#Contacts p {
+   display: none;
+}
+@media (max-width: 768px) {
+   #Contacts {
+      margin-top: 0vh;
+   }
+   #Contacts .container {
+      justify-content: space-around;
+      width: 90vw;
+      flex-wrap: wrap;
+   }
+   #whatsapp {
+      margin-right: 20px;
+   }
+   #Contacts p {
+      display: block;
+      color: #9c3596;
+      padding-top: 20px;
+      margin-bottom: 20px;
+   }
 }
