@@ -540,6 +540,25 @@ a {
    color: #202020;
 }
 
+@media (max-width: 768px){
+   #Masters {
+      padding-top: 0vh;
+   }
+   .master {
+      width: 44vw;
+      margin-bottom: 20px;
+   }
+   .img-bg img:hover {
+      transform: scale(1);
+   }
+   .name {
+      font-size: 16px;
+   }
+   .experience {
+      font-size: 14px;
+   }
+}
+
 /* bestworks */
 #BestWorks {
    padding-top: 7.5vh;
