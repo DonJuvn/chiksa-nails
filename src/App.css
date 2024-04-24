@@ -625,6 +625,36 @@ a {
    text-align: center;
 }
 
+@media (max-width: 768px){
+   #BestWorks {
+      padding-top: 0vh;
+   }
+   .works {
+      flex-direction: column;
+      margin-bottom: 7.5vh;
+   }
+   .work {
+      width: 100%;
+      height: 24vh;
+      margin-bottom: 15px;
+   }
+   .work-img {
+      display: flex;
+      position: relative;
+      height: 100%;
+      width: 40%;
+      margin: auto;
+   }
+   .work-img img:hover {
+      transform: scale(1);
+   }
+   .work-info {
+      margin: 22px 30px 0 0;
+   }
+   .information {
+      font-size: 14px;
+   }
+}
 /* certificates */
 #Certificates {
    padding-top: 7.5vh;
