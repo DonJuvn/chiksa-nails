@@ -1,5 +1,4 @@
-html {
-   scroll-behavior: smooth;
+html {   scroll-behavior: smooth;
 }
 body {
    overflow-x: hidden;
@@ -392,13 +391,13 @@ a {
       line-height: 23.75px;
    }
    #call-to-action {
-      width: 51.5vw;
+      width: 70vw;
    }
    .title span {
       color: #9c3596;
    }
    .desc {
-      width: 50vw;
+      width: 74vw;
       margin: 2% 0;
       font-size: 16px;
       font-weight: 500;
@@ -408,40 +407,26 @@ a {
       color: #9c3596;
    }
    .calls {
-      display: flex;
-      flex-wrap: wrap;
       justify-content: space-around;
-      margin-bottom: 7.5vh;
+      margin-top: 4vh;
    }
    .call {
-      position: relative;
-      width: 49%;
-      height: 55vh;
-      background-color: #efe5e3;
-      border-radius: 25px;
-      overflow: hidden;
+      width: 100%;
+      height: 24vh;
+      border-radius: 15px;
+      margin-bottom: 20px;
    }
    .call h1 {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 38px;
-      color: #9c3596;
-      width: 55%;
-      margin-top: 13%;
+      font-size: 22px;
+      line-height: 23.75px;
+      width: 53%;
+      margin-top: 10%;
    }
    .call p {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 21px;
-      margin: 2.4% 0 5.5%;
+      font-size: 14px;
+      line-height: 15.25px;
+      margin: 5% 0 5.5%;
       width: 55%;
-      color: #202020;
-   }
-   .call img {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      height: 85%;
    }
 }
 
@@ -478,6 +463,36 @@ a {
    width: 0.5px;
    height: 70px;
    background-color: #202020;
+}
+
+@media (max-width: 768px) {
+   #Features {
+      padding-top: 0vh;
+   }
+   .features {
+      margin-top: 6%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: fit-content;
+      align-items: center;
+      margin-bottom: 7.5vh;
+      flex-wrap: wrap;
+   }
+   .feature {
+      width: 70%;
+      margin-bottom: 10px;
+   }
+   .feature img {
+      margin-right: 10px;
+   }
+   .feature p {
+      font-size: 16px;
+      line-height: 18px;
+   }
+   .divider {
+      display: none;
+   }
 }
 
 /* masters */
