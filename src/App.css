@@ -740,7 +740,7 @@ a {
       width: 48%;
       aspect-ratio: 1/1.1;
       border-radius: 30px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
    }
    .certificate .container {
       width: 80%;
@@ -761,24 +761,13 @@ a {
    .certificate .price {
       margin-bottom: 22px;
       font-size: 20px;
-      bottom: 0;
    }
    .add {
-      background-color: #fff;
       padding: 10px 0px 0 10px;
       border-radius: 30px 0 0 0;
-      width: fit-content;
-      float: right;
-      position: absolute;
-      right: 0;
-      bottom: 0;
    }
    .add-bg {
-      background-color: #9c3596;
-      border-radius: 100%;
-      width: fit-content;
       padding: 13.5px 15px;
-      transition: 0.3s;
    }
    .add-bg:hover {
       transform: scale(1);
@@ -916,6 +905,101 @@ input:focus {
    position: absolute;
    right: 0;
    bottom: 0;
+}
+
+@media (max-width: 768px){
+   #appointment {
+      padding-top: 0vh;
+   }
+   .appointment-section {
+      border-radius: 30px;
+      margin: 5vh 0 15vh 0;
+      position: relative;
+      overflow: hidden;
+   }
+   .appointment-section .container {
+      padding: 0;
+      margin: 5%;
+      width: 90%;
+   }
+   .appointment-section h3 {
+      font-size: 18px;
+   }
+   .pick-masters {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-bottom: 3%;
+   }
+   .picker {
+      padding: 6px 8px;
+      font-size: 14px;
+      font-family: 'Gilroy', sans-serif;
+      margin: 0 5px 5px 0;
+   }
+   .picker:hover {
+      transform: scale(1);
+   }
+   .form {
+      width: 100%;
+   }
+   .form p {
+      font-size: 14px;
+      line-height: 15px;
+      margin-bottom: 10px;
+   }
+   .number{
+      width: 70%;
+   }
+   .zapis {
+      flex-direction: column;
+      width: 100%;
+   }
+   .work-type {
+      width: 60%;
+   }
+   .date {
+      padding-left: 0;
+      width: 60%;
+   }
+   .zapis select {
+      max-width: 40%;
+      font-size: 14px;
+      padding: 4px;
+      border-radius: 5px;
+      margin: 0 4px;
+   }
+   .form input {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 15.25px;
+      padding: 5px 0;
+   }
+   .appointment-section img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 45%;
+      height: 55%;
+   }
+   .appointment-section .appointment-btn {
+      padding: 8px 40px;
+      border-radius: 15px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+   }
+   .appointment-btn:hover {
+      transform: scale(1);
+   }
+   .btn-bg {
+      padding: 8px 10px 10px 10px;
+      border-radius: 20px 0 0 0;
+      width: 45%;
+      height: 6%;
+   }
 }
 
 /* footer */
