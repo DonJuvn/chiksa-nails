@@ -1,4 +1,5 @@
-import React from "react";import AppointmentButton from "./appointment-btn";
+import React from "react";
+import AppointmentButton from "./appointment-btn";
 import PhoneButton from "./phone-number";
 
 const About = () => {
@@ -24,16 +25,16 @@ const About = () => {
                </div>
                <div className="smm">
                   <a href="#">
-                     WhatsApp <img src="../../img/link.svg" alt="" />
+                     WhatsApp <img src="../../img/link.png" alt="" />
                   </a>
                   <a href="#">
-                     Instagram <img src="../../img/link.svg" alt="" />
+                     Instagram <img src="../../img/link.png" alt="" />
                   </a>
                   <a href="#">
-                     TikTok <img src="../../img/link.svg" alt="" />
+                     TikTok <img src="../../img/link.png" alt="" />
                   </a>
                   <a href="#">
-                     Telegram <img src="../../img/link.svg" alt="" />
+                     Telegram <img src="../../img/link.png" alt="" />
                   </a>
                </div>
                <img

@@ -30,7 +30,7 @@ const CallToAction = () => {
                         </p>
                         <AppointmentButton />
                      </div>
-                     <img src="../../img/cta1.svg" alt="" />
+                     <img src="../../img/cta1.png" alt="" />
                   </div>
                   <div className="call">
                      <div className="container">
@@ -41,7 +41,7 @@ const CallToAction = () => {
                         </p>
                         <AppointmentButton />
                      </div>
-                     <img src="../../img/cta2.svg" alt="" />
+                     <img src="../../img/cta2.png" alt="" />
                   </div>
                </div>
             </div>
