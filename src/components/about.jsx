@@ -1,5 +1,4 @@
-import React from "react";
-import AppointmentButton from "./appointment-btn";
+import React from "react";import AppointmentButton from "./appointment-btn";
 import PhoneButton from "./phone-number";
 
 const About = () => {
@@ -19,7 +18,7 @@ const About = () => {
                      незабываемым.
                   </p>
                   <div className="actions">
-                     <AppointmentButton isVisible={true}/>
+                     <AppointmentButton isVisible={true} />
                      <PhoneButton />
                   </div>
                </div>
@@ -37,7 +36,11 @@ const About = () => {
                      Telegram <img src="../../img/link.svg" alt="" />
                   </a>
                </div>
-               <img className='main-woman' src="../../img/main-woman.svg" alt="" />
+               <img
+                  className="main-woman"
+                  src="../../img/main-woman.png"
+                  alt=""
+               />
             </div>
          </div>
       </div>
