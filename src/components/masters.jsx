@@ -1,4 +1,5 @@
-import React from "react";const Masters = () => {
+import React from "react";
+const Masters = () => {
    return (
       <div id="Masters">
          <div className="container">
@@ -16,28 +17,28 @@ import React from "react";const Masters = () => {
             <div className="masters">
                <div className="master">
                   <div className="img-bg">
-                     <img src="../../img/master1.svg" alt="" />
+                     <img src="../../img/master1.png" alt="" />
                   </div>
                   <h3 className="name">Мастер Асель</h3>
                   <p className="experience">2 года</p>
                </div>
                <div className="master">
                   <div className="img-bg">
-                     <img src="../../img/master2.svg" alt="" />
+                     <img src="../../img/master2.png" alt="" />
                   </div>
                   <h3 className="name">Мастер Асель</h3>
                   <p className="experience">2 года</p>
                </div>
                <div className="master">
                   <div className="img-bg">
-                     <img src="../../img/master3.svg" alt="" />
+                     <img src="../../img/master3.png" alt="" />
                   </div>
                   <h3 className="name">Мастер Асель</h3>
                   <p className="experience">2 года</p>
                </div>
                <div className="master">
                   <div className="img-bg">
-                     <img src="../../img/master4.svg" alt="" />
+                     <img src="../../img/master4.png" alt="" />
                   </div>
                   <h3 className="name">Мастер Асель</h3>
                   <p className="experience">2 года</p>
