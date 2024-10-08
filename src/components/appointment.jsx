@@ -61,7 +61,7 @@ const Appointment = () => {
       e.preventDefault();
       try {
          const response = await fetch(
-            "https://chiksa-nails.pythonanywhere.com/appointment/",
+            "https://chiksa.pythonanywhere.com/api/appointments/",
             {
                method: "POST",
                headers: {
