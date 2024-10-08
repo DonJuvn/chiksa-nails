@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";import { Link } from "react-router-dom";
 import AppointmentButton from "./appointment-btn";
 import Navigation from "./navigation";
 
@@ -16,10 +15,10 @@ const Header = () => {
             <div className={`header ${isMenuOpen ? "active" : ""}`}>
                <div className="logo">
                   <Link to="/">
-                     <img src="../../img/logo.svg" alt="" />
+                     <img src="../../img/logo.png" alt="" />
                   </Link>
                </div>
-               <i id='burger' onClick={toggleMenu} class="fa-solid fa-bars"></i>
+               <i id="burger" onClick={toggleMenu} class="fa-solid fa-bars"></i>
                <Navigation isOpen={isMenuOpen} />
                <AppointmentButton isVisible={isMenuOpen} />
             </div>
