@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-const Appointment = () => {
+import React, { useState, useEffect } from "react";const Appointment = () => {
    const [dates, setDates] = useState([]);
    const [times, setTimes] = useState([]);
    const [selectedMaster, setSelectedMaster] = useState("");
@@ -184,7 +183,7 @@ const Appointment = () => {
                         </div>
                      </div>
                   </div>
-                  <img src="../../img/last.svg" alt="" />
+                  <img src="../../img/last.png" alt="" />
                   <div className="btn-bg">
                      <button className="appointment-btn" onClick={handleSubmit}>
                         Записаться
