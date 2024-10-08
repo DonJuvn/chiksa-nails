@@ -1,5 +1,4 @@
-import React from "react";
-const BestWorks = () => {
+import React from "react";const BestWorks = () => {
    return (
       <div id="BestWorks">
          <div className="container">
@@ -19,7 +18,7 @@ const BestWorks = () => {
                <div className="work">
                   <img className="logotype" src="../../img/chiksa.svg" alt="" />
                   <div className="work-img">
-                     <img src="../../img/work1.svg" alt="" />
+                     <img src="../../img/work1.png" alt="" />
                   </div>
                   <div className="work-info">
                      <p className="information">Мастер Асел</p>
@@ -28,7 +27,7 @@ const BestWorks = () => {
                <div className="work">
                   <img className="logotype" src="../../img/chiksa.svg" alt="" />
                   <div className="work-img">
-                     <img src="../../img/work2.svg" alt="" />
+                     <img src="../../img/work2.png" alt="" />
                   </div>
                   <div className="work-info">
                      <p className="information">Мастер Жанна</p>
