@@ -1,4 +1,5 @@
-import React from "react";const Features = () => {
+import React from "react";
+const Features = () => {
    return (
       <div id="Features">
          <div className="container">
